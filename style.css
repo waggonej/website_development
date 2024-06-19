@@ -1,0 +1,72 @@
+/* The body tag contains everything on the page */
+
+h1 {
+  font-size: 64px;
+  /* margins are the go to property for when we want to create space between elements on our page */
+  line-height: 0px;
+  /* margin-bottom: 5px; */
+}
+
+body {
+  /* font-family: 'Roboto Slab', serif; */
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 32px;
+  background-color: #ffffff;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+a {
+  /* we need to specify a color for our links */
+  color: #ffffff;
+  /* this removes the default underline */
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  background-image:  url(assets/P1.jpg);
+  background-size: cover;
+  /* This will create PARALLAX EFFECT */
+  background-attachment: fixed;
+}
+
+header {
+  /* using fixed position allows us to precisely position an element in relation to the brwoser viewport */
+  position: fixed;
+  /* Sets the x/y cordinate of the top left corner of the header */
+  top: 20px;
+  left: 60px;
+}
+
+footer {
+  font-family: 'Mate SC', serif;
+  position: fixed;
+  bottom: 20px;
+  left: 60px;
+  font-size: 16px;
+}
+
+footer a {
+  margin-right: 5px;
+}
+
+/* This gives the interactive color changes as the cursor goes over the link */
+a:hover {
+  color: #dddddd;
+}
+
+/* Class definitions */
+/* this will apply styles to any element in our html which has a 'class' attribute of "image_2" */
+.image_2 {
+  background-image: url(assets/P2.JPG);
+}
+
+.image_3 {
+  background-image: url(assets/P3.jpg);
+}
+
+.image_4 {
+  background-image: url(assets/P4.jpg);
+}

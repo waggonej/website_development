@@ -60,7 +60,7 @@ a:hover {
 /* Class definitions */
 /* this will apply styles to any element in our html which has a 'class' attribute of "image_2" */
 .image_2 {
-  background-image: url(assets/P2.JPG);
+  background-image: url(assets/P2.jpg);
 }
 
 .image_3 {
